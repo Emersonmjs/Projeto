@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Chamados</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="img/undraw_team_spirit_re_yl1v.svg" alt="">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Suporte do Usuário</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Primeiro Nome</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+
+    
+                </div>
+                    <div class="problemas">
+                        <label for="Problemas">
+                            <select name="Problemas" id="Problemas" placeholder="Problemas">
+                                <option value="1">404: Página não encontrada</option>
+                                <option value="2">504: Página demorou demorou para responder</option>
+                                <option value="3">401: Não autorização para acessar o site</option>
+                                <option value="4">407: É necessário que a autenticação seja feita por um proxy</option>
+                                <option value="5">412: O cliente indicou nos seus cabeçalhos pre condições que o servidor não atende</option>
+                                <option value="6">421: A requisição foi direcionada a um servidor inapto para produzir a resposta</option>
+                                <option value="7">500: Servidor não pode atender a solicitação do usuário no momento</option>
+                                <option value="8">502: Falha de comunicação dos servidores</option>
+                                <option value="9">503: Servidor indisponível/ Temporariamente indisponível</option>
+                                <option value="10">403: Resultado da falta de permissões apropriadas para acessar o endereço</option>
+                                <option value="11">423: O recurso sendo acessado está travado</option>
+                                <option value="12">510: Exigem extensões posteriores a requisição para o servidor atender o cliente</option>
+                                <option value="13">Vulnerabilidade do site: Erro na construção da segurança do site</option>
+                                <option value="14">Nome de domínio expirado: Sem a renovação do registro do seu domínio.</option>
+                            </select>
+                        </label>
+                    </div>
+                    <button><a href="#">Enviar</a> </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

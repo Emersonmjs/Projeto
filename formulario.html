@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="estiloforms.css">
+    <h1>
+        IT Essentials
+    </h1>
+    <h2>
+        Inscrições abertas para nossos cursos de técnologia!
+    </h2>
+</head>
+<body>
+    <div class="formulariocentral">
+        <form action="formulario.html" class="">
+            <div id="nome">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" placeholder="Digite seu nome"/>
+            </div>
+                <div id="endereço">
+                    <label for="endereço">Endereço:</label><br>
+                    <input type="text" id="endereçon" placeholder="Digite onde você mora:"/>
+                </div>
+                <div id="telefone">
+                    <label for="telefone">Telefone:</label><br>
+                    <input type="tel" id="telefone" placeholder="(00)00000-0000"/>
+                </div>
+                <div id="curso">
+                    <label for="curso">Curso:</label><br>
+                    <select name="curso" id="curso">
+                        <option value="1">Fundamentos de técnologia</option>
+                        <option value="2">Redes</option>
+                        <option value="3">Fundamentos de Design</option>
+                        <option value="4">Banco de dados</option>
+                        <option value="5">Programação</option>
+                    </select>
+                </div>
+                    <div id="cidade">
+                        <label for="cidade">Cidade:</label><br>
+                        <select name="cidade" id="cidade">
+                            <option value="1">Feira de Santana</option>
+                            <option value="2">Salvador</option>
+                            <option value="3">Camaçari</option>
+                            <option value="4">Ilheus</option>
+                            <option value="5">Porto Seguro</option>
+                        </select>
+                    </div>
+            <div id="enviar">
+                <input type="submit">
+            </div>
+        </form>
+    </div>
+</body> 
+</html>

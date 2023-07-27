@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUALLYE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="showcase">
+        <div class="showcase-top">
+            <div class="navbar">
+                <img src="img/Captura_de_tela_2023-07-13_081852-removebg-preview (1).png" alt="" class="logo">
+                <div class="logo-right">
+                    <a 
+                    href="../Netflix Cadastro/Cadastro.html"><button class="sign-in">Cadastro</button></a>
+                    <a href="../Netflix Login/Login.html"><button class="sign-in">Entrar</button></a>
+                </div>
+            </div>
+            <div class="title-container">
+                <div class="title-up">
+                    <h1 class="ultimate">Pelo desenvolvimento pessoal dos estudantes</h1>
+                
+                    <p class="ready">Nesse cenário se constrói a necessidade e importância do presente projeto que objetiva ajudar 
+                        jovens a entenderem sobre sua aprendizagem, inteligências, potencialidades, empreendedorismo e áreas que podem vir a atuar.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="second-container">
+        <div class="items">
+            <img src="../imagens/ECONOMIZAR.png" alt="item-one">
+            <h2>Gestão Financeira</h2>
+            <p>Uma gestão financeira eficiente não é apenas sobre acumular riquezas, mas sim sobre cultivar uma relação saudável e equilibrada com o dinheiro, onde cada escolha financeira é um passo em direção à liberdade e prosperidade.</p>
+        </div>
+        <div class="items">
+            <img src="../imagens/Empreendedorismo/MARKETING.png" alt="item-two">
+            <h2>Empreendedorismo</h2>
+            <p>O empreendedorismo é a arte de transformar sonhos em realidade, desafios em oportunidades e obstáculos em degraus para o sucesso. É a coragem de dar vida às ideias e a determinação de criar um legado que inspire outros a seguirem seus próprios caminhos.</p>
+        </div>
+        <div class="items">
+            <img src="../imagens/Inteligência emocional/AUTOCONSCIÊNCIA.png" alt="item-three">
+            <h2>Inteligência emocional</h2>
+            <p>A verdadeira força não reside apenas em dominar o mundo esterior, mas tambem em compreender e dominar o mundo interior através da inteligência emocional.</p>
+        </div>
+        <div class="items">
+            <img src="../imagens/PLANEJAMENTO.png" alt="item-four">
+            <h2>Planejamento Pessoal</h2>
+            <p>Planejar seu futuro é como esculpir sua própria escada para o sucesso. Cada passo bem pensado e estrategicamente colocado o levará mais alto, mais perto dos seus objetivos e mais preparado para enfrentar qualquer desafio que surgir em seu caminho.</p>
+        </div>
+    </div>
+
+
+    <script>
+        let coll = document.getElementsByClassName("collapsable");
+        let i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                let content = this.nextElementSibling;
+                if(content.style.display === "block"){
+                    content.style.display = "none";
+                }else{
+                    content.style.display = "block";
+                }
+            })
+            
+        }
+    </script>
+</body>
+</html>

@@ -117,6 +117,15 @@ input:focus{
 }
 .title-up{
     /* border: 2px solid yellow; */
+  display: flex;
+  flex-direction: column;
+  gap: 28.8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 980px;
+  position: absolute;
+  left: calc(50% - 730.36px);
+  top: calc(50% - -203.46px);
 }
 .ultimate{
     font-size: 68px;

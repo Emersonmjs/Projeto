@@ -113,7 +113,7 @@ input:focus{
 .title-container{
     /* border: 2px solid red; */
     padding: 3rem 20rem;
-    text-align: center;
+    text-align: left;
 }
 .title-up{
     /* border: 2px solid yellow; */

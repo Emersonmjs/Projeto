@@ -148,8 +148,13 @@ input:focus{
     z-index: 10;
 }
 .ready{
-    color: rgb(229, 229, 229);
-    margin-bottom: 1.2rem;
+    color: #ffffff;
+  text-align: left;
+  font: 400 15px "Inter", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 .second-container{
     /* border: 2px solid red; */

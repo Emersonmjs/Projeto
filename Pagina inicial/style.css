@@ -148,6 +148,14 @@ input:focus{
     position: relative;
     z-index: 10;
 }
+.jovens-adultos-se-encontrando-para-estudar-1 {
+  border-radius: 126px;
+  width: 1420px;
+  height: 503px;
+  position: absolute;
+  left: calc(50% - 727.36px);
+  top: 141.46px;
+}
 .ready{
     color: #ffffff;
   text-align: left;

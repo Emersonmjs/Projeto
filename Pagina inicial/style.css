@@ -127,16 +127,6 @@ input:focus{
   left: calc(50% - 730.36px);
   top: calc(50% - -203.46px);
 }
-.ultimate{
-    color: #ffffff;
-    text-align: left;
-    font: 700 68px/88.4px "Inter", sans-serif;
-    position: relative;
-    width: 813px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
 .logo img {
     height: 69px;
     width: 200px;
@@ -150,21 +140,13 @@ input:focus{
 }
 .jovens-adultos-se-encontrando-para-estudar-1 {
   border-radius: 126px;
-  width: 1420px;
-  height: 503px;
+  width: 1500px;
+  height: 600px;
   position: absolute;
-  left: calc(50% - 727.36px);
+  left: calc(50% - 750px);
   top: 141.46px;
 }
-.ready{
-    color: #ffffff;
-  text-align: left;
-  font: 400 15px "Inter", sans-serif;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
+
 .second-container{
     /* border: 2px solid red; */
     width: 100%;

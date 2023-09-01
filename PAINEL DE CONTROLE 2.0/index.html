@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="port-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <title>Painel de controle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+<body>
+   <input type="checkbox" id="menu-toggle">
+    <div class="sidebar">
+        <div class="side-header">
+            <h3><span>QUALLY</span></h3> 
+        </div>
+        
+        <div class="side-content">
+            <div class="profile">
+                <div class="profile-img bg-img" style="background-image: url(img/3.jpeg)"></div>
+                <h4>Gerente</h4>
+                <small>Suporte</small>
+            </div>
+
+            <div class="side-menu">
+                <ul>
+                    <li>
+                       <a href="" class="active">
+                            <span class="las la-home"></span>
+                            <small>Painel</small>
+                        </a>
+                    </li>
+                    <li>
+                       <a href="">
+                            <span class="las la-user-alt"></span>
+                            <small>Perfil</small>
+                        </a>
+                    </li>
+                    <li>
+                       <a href="">
+                            <span class="las la-envelope"></span>
+                            <small>Caixa de correio</small>
+                        </a>
+                    </li>
+                    <li>
+                       <a href="">
+                            <span class="las la-clipboard-list"></span>
+                            <small>Enviadas</small>
+                        </a>
+                    </li>
+                    <li>
+                       <a href="">
+                            <span class="las la-shopping-cart"></span>
+                            <small>Doações</small>
+                        </a>
+                    </li>
+                    <li>
+                       <a href="">
+                            <span class="las la-tasks"></span>
+                            <small>Pendente</small>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="main-content">
+        
+        <header>
+            <div class="header-content">
+                <label for="menu-toggle">
+                    <span class="las la-bars"></span>
+                </label>
+                
+                <div class="header-menu">
+                    <label for="">
+                        <span class="las la-search"></span>
+                    </label>
+                    
+                    <div class="notify-icon">
+                        <span class="las la-envelope"></span>
+                        <span class="notify">4</span>
+                    </div>
+                    
+                    <div class="notify-icon">
+                        <span class="las la-bell"></span>
+                        <span class="notify">3</span>
+                    </div>
+                    
+                    <div class="user">
+                        <div class="bg-img" style="background-image: url(img/1.jpeg)"></div>
+                        
+                        <span class="las la-power-off"></span>
+                        <span>Sair</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        
+        <main>
+            
+            <div class="page-header">
+                <h1>Painel de controle</h1>
+                <small>Inicio / Painel de controle</small>
+            </div>
+            
+            <div class="page-content">
+            
+                <div class="analytics">
+
+                    <div class="card">
+                        <div class="card-head">
+                            <h2>107,200</h2>
+                            <span class=""></span>
+                        </div>
+                        <div class="card-progress">
+                            <small>Atividade do usuário neste mês</small>
+                            <div class="card-indicator">
+                                <div class="indicator one" style="width: 60%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-head">
+                            <h2>340,230</h2>
+                            <span class=""></span>
+                        </div>
+                        <div class="card-progress">
+                            <small>visualizações de página</small>
+                            <div class="card-indicator">
+                                <div class="indicator two" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-head">
+                            <h2>653,200</h2>
+                            <span class=""></span>
+                        </div>
+                        <div class="card-progress">
+                            <small>Resolução de problema mensal</small>
+                            <div class="card-indicator">
+                                <div class="indicator three" style="width: 65%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-head">
+                            <h2>47,500</h2>
+                            <span class=""></span>
+                        </div>
+                        <div class="card-progress">
+                            <small>Novos e-mails recebidos</small>
+                            <div class="card-indicator">
+                                <div class="indicator four" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="records table-responsive">
+
+                    <div class="record-header">
+                        <div class="add">
+                            <span>Entradas</span>
+                            <select name="" id="">
+                                <option value="">ID</option>
+                                <option value="">#0001</option>
+                                <option value="">#0002</option>
+                                <option value="">#0003</option>
+                                <option value="">#0004</option>
+                                <option value="">#0005</option>
+                                <option value="">#0006</option>
+                                <option value="">#0007</option>
+                                <option value="">#0008</option>
+                                <option value="">#0009</option>
+                            </select>
+                            <button>adicionar registro</button>
+                        </div>
+
+                        <div class="browse">
+                           <input type="search" placeholder="Procurar" class="record-search">
+                            <select name="" id="">
+                                <option value="">Status</option>
+                                <option value="">Leve</option>
+                                <option value="">Médio</option>
+                                <option value="">Grave</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div>
+                        <table width="100%">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th><span class="las la-sort"></span> USUÁRIO</th>
+                                    <th><span class="las la-sort"></span> TOTAL</th>
+                                    <th><span class="las la-sort"></span> EMITÊNCIA</th>
+                                    <th><span class="las la-sort"></span> SITUAÇÃO</th>
+                                    <th><span class="las la-sort"></span> AÇÕES</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>#0001</td>
+                                    <td>
+                                        <div class="client">
+                                           <div class="client-img bg-img" style="background-image: url(img/3.jpeg)"></div>
+                                            <div class="client-info">
+                                                <h4>João da Silva</h4>
+                                                <small>joao.da.silva@gmail.com</small>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        10
+                                    </td>
+                                    <td>
+                                        19 Agosto, 2023
+                                    </td>
+                                    <td>
+                                        <span class="paid">Leve</span>
+                                    </td>
+                                    <td>
+                                        <div class="actions">
+                                            <span class="lab la-telegram-plane"></span>
+                                            <span class="las la-eye"></span>
+                                            <span class="las la-ellipsis-v"></span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>#0002</td>
+                                    <td>
+                                        <div class="client">
+                                           <div class="client-img bg-img" style="background-image: url(img/1.jpeg)"></div>
+                                            <div class="client-info">
+                                                <h4>Maria dos Santos</h4>
+                                                <small>maria.dos.santos@gmail.com</small>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        80
+                                    </td>
+                                    <td>
+                                        19 Agosto, 2023
+                                    </td>
+                                    <td>
+                                        <span class="paid">Leve</span>
+                                    </td>
+                                    <td>
+                                        <div class="actions">
+                                            <span class="lab la-telegram-plane"></span>
+                                            <span class="las la-eye"></span>
+                                            <span class="las la-ellipsis-v"></span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>#0003</td>
+                                    <td>
+                                        <div class="client">
+                                           <div class="client-img bg-img" style="background-image: url(img/1.jpeg)"></div>
+                                            <div class="client-info">
+                                                <h4>José Pereira</h4>
+                                                <small>josé.pereira.789@gmail.com</small>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        14
+                                    </td>
+                                    <td>
+                                        19 Agosto, 2023
+                                    </td>
+                                    <td>
+                                        <span class="paid">Leve</span>
+                                    </td>
+                                    <td>
+                                        <div class="actions">
+                                            <span class="lab la-telegram-plane"></span>
+                                            <span class="las la-eye"></span>
+                                            <span class="las la-ellipsis-v"></span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>#0004</td>
+                                    <td>
+                                        <div class="client">
+                                           <div class="client-img bg-img" style="background-image: url(img/3.jpeg)"></div>
+                                            <div class="client-info">
+                                                <h4>Ana Paula</h4>
+                                                <small>ana.paula.012@gmail.com</small>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        23
+                                    </td>
+                                    <td>
+                                        19 Agosto, 2023
+                                    </td>
+                                    <td>
+                                        <span class="paid">Leve</span>
+                                    </td>
+                                    <td>
+                                        <div class="actions">
+                                            <span class="lab la-telegram-plane"></span>
+                                            <span class="las la-eye"></span>
+                                            <span class="las la-ellipsis-v"></span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>#0005</td>
+                                    <td>
+                                        <div class="client">
+                                           <div class="client-img bg-img" style="background-image: url(img/1.jpeg)"></div>
+                                            <div class="client-info">
+                                                <h4>Pedro Henrique</h4>
+                                                <small>pedro.henrique.345@email.com</small>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        30
+                                    </td>
+                                    <td>
+                                        19 Agosto, 2023
+                                    </td>
+                                    <td>
+                                        <span class="paid">Leve</span>
+                                    </td>
+                                    <td>
+                                        <div class="actions">
+                                            <span class="lab la-telegram-plane"></span>
+                                            <span class="las la-eye"></span>
+                                            <span class="las la-ellipsis-v"></span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>#0006</td>
+                                    <td>
+                                        <div class="client">
+                                           <div class="client-img bg-img" style="background-image: url(img/1.jpeg)"></div>
+                                            <div class="client-info">
+                                                <h4>Carlos Alberto</h4>
+                                                <small>carlos.alberto.678@gmail.com</small>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        10
+                                    </td>
+                                    <td>
+                                        19 Agosto, 2023
+                                    </td>
+                                    <td>
+                                        <span class="paid">Leve</span>
+                                    </td>
+                                    <td>
+                                        <div class="actions">
+                                            <span class="lab la-telegram-plane"></span>
+                                            <span class="las la-eye"></span>
+                                            <span class="las la-ellipsis-v"></span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>#0007</td>
+                                    <td>
+                                        <div class="client">
+                                           <div class="client-img bg-img" style="background-image: url(img/3.jpeg)"></div>
+                                            <div class="client-info">
+                                                <h4>Juliana Souza</h4>
+                                                <small>juliana.souza.901@gmail.com</small>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        20
+                                    </td>
+                                    <td>
+                                        19 Agosto, 2023
+                                    </td>
+                                    <td>
+                                        <span class="paid">Leve</span>
+                                    </td>
+                                    <td>
+                                        <div class="actions">
+                                            <span class="lab la-telegram-plane"></span>
+                                            <span class="las la-eye"></span>
+                                            <span class="las la-ellipsis-v"></span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>#0008</td>
+                                    <td>
+                                        <div class="client">
+                                           <div class="client-img bg-img" style="background-image: url(img/1.jpeg)"></div>
+                                            <div class="client-info">
+                                                <h4>Rafaela Lima</h4>
+                                                <small>rafaela.lima.234@gmail.com</small>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        60
+                                    </td>
+                                    <td>
+                                        19 Agosto, 2023
+                                    </td>
+                                    <td>
+                                        <span class="paid">Leve</span>
+                                    </td>
+                                    <td>
+                                        <div class="actions">
+                                            <span class="lab la-telegram-plane"></span>
+                                            <span class="las la-eye"></span>
+                                            <span class="las la-ellipsis-v"></span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>#0009</td>
+                                    <td>
+                                        <div class="client">
+                                           <div class="client-img bg-img" style="background-image: url(img/1.jpeg)"></div>
+                                            <div class="client-info">
+                                                <h4>Guilherme Santos</h4>
+                                                <small>guilherme.santos.567@gmail.com</small>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        3
+                                    </td>
+                                    <td>
+                                        19 Agosto, 2023
+                                    </td>
+                                    <td>
+                                        <span class="paid">Leve</span>
+                                    </td>
+                                    <td>
+                                        <div class="actions">
+                                            <span class="lab la-telegram-plane"></span>
+                                            <span class="las la-eye"></span>
+                                            <span class="las la-ellipsis-v"></span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            
+            </div>
+            
+        </main>
+        
+    </div>
+</body>
+</html>

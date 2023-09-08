@@ -1,0 +1,489 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="configurações/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="../carrossel2/infinite-autoplay-slider-master/assets/css/style.css">
+    <link rel="stylesheet" href="STYLER.CSS">
+
+    <!--=============== CSS ===============-->
+
+    <title>QuallyE</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">QUALLYE</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">Início</li>
+                </ul>
+            </div>
+            <div class="action">
+                <div class="profile" onclick="menuToggle();">
+                    <img src="configurações/img/3135715.png" alt="">
+                </div>
+
+                <div class="menu">
+                    <h3>
+                        Usuário
+                    </h3>
+                    <ul>
+                        <li>
+                            <img src="configurações/img/icons8-alterar-usuário-masculino-50 (1).png"
+                                alt="mudar">
+                            <a href="#">Mudar de conta</a>
+                        </li>
+                        <li>
+                            <img class="icons-size" src="configurações/img/icons8-ajuda-50.png" alt="Ajuda">
+                            <a href="#">Ajuda</a>
+                        </li>
+                        <li>
+                            <img class="icons-size" src="configurações/img/icons8-configurações-50.png"
+                                alt="configurações">
+                            <a href="#">Configurações</a>
+                        </li>
+                        <li>
+                            <img class="icons-size" src="configurações/img/icons8-sair-50 (1).png" alt="sair">
+                            <a href="#">Sair</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <script>
+                function menuToggle() {
+                    const toggleMenu = document.querySelector('.menu');
+                    toggleMenu.classList.toggle('active')
+                }
+            </script>
+        </div>
+    </nav>
+    <!--=============== MAIN JS ===============-->
+    <script src="../../Protótipos/dropdown-menu-main/assets/js/main.js"></script>
+    <div class="sidebar">
+        <i class="left-menu-icon fas fa-search"></i>
+        <i class="left-menu-icon fas fa-home"></i>
+        <a href="../Suporte do Cliente/formulario.html"><i class="left-menu-icon fas fa-users"></i></a>
+        <i class="left-menu-icon fas fa-bookmark"></i>
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content" style="background: linear-gradient(to bottom,purple ,black ), url('');">
+                <div class="slide-wrapper" data-slide="wrapper">
+                    <button class="slide-nav-button slide-nav-previous fas fa-chevron-left"
+                        data-slide="nav-previous-button"></button>
+                    <button class="slide-nav-button slide-nav-next fas fa-chevron-right"
+                        data-slide="nav-next-button"></button>
+                    <div class="slide-list" data-slide="list">
+                        <div class="slide-item" data-slide="item" data-index="0">
+                            <div class="slide-content">
+                                <img class="slide-image"
+                                    src="imagens carrossel/Gestão financeira/gimp/1.png"
+                                    alt="Assassin's Creed" />
+                                <div class="slide-description">
+                                    <h3>Controle</h3>
+                                    <br>
+                                    <p>Gerenciar despesas está relacionado à autoconsciência sobre
+                                        os gastos.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-item" data-slide="item" data-index="1">
+                            <div class="slide-content">
+                                <img class="slide-image"
+                                    src="imagens carrossel/Gestão financeira/gimp/2.png"
+                                    alt="Fortnite" />
+                                <div class="slide-description">
+                                    <h3>Economia</h3>
+                                    <br>
+                                    <p>Estar ciente dos juros e da inflação faz com que a diferença
+                                        seja visível.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-item" data-slide="item" data-index="2">
+                            <div class="slide-content">
+                                <img class="slide-image"
+                                    src="imagens carrossel/Gestão financeira/gimp/3.png"
+                                    alt="Freefire" />
+                                <div class="slide-description">
+                                    <h3>Planejamento</h3>
+                                    <br>
+                                    <p>Criação de um caderno ou arquivo separado em seu computador
+                                        e anote em que gasta dinheiro.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-item" data-slide="item" data-index="3">
+                            <div class="slide-content">
+                                <img class="slide-image"
+                                    src="imagens carrossel/Empreendedorismo/gimp/1.png"
+                                    alt="GTA V" />
+                                <div class="slide-description">
+                                    <h3>Aplicações</h3>
+                                    <br>
+                                    <p>Aplicar e poupar dinheiro de uma maneira que seja benéfica
+                                        para o seu bolso.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-item" data-slide="item" data-index="4">
+                            <div class="slide-content">
+                                <img class="slide-image"
+                                    src="imagens carrossel/Empreendedorismo/gimp/2.png"
+                                    alt="Halo 5" />
+                                <div class="slide-description">
+                                    <h3>Economizar</h3>
+                                    <br>
+                                    <p>Os períodos de seca financeira são mais fáceis de sobreviver
+                                        com uma pequena almofada financeira.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-item" data-slide="item" data-index="5">
+                            <div class="slide-content">
+                                <img class="slide-image"
+                                    src="imagens carrossel/Empreendedorismo/gimp/3.png"
+                                    alt="Halo 5" />
+                                <div class="slide-description">
+                                    <h3>Marketing</h3>
+                                    <br>
+                                    <p>Uma das molas propulsoras de um negócio é o bom marketing,
+                                        seja ela tradicional ou digital.</p>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="slide-controls" data-slide="controls-wrapper">
+                    </div>
+                </div>
+                <script src="../carrossel2/infinite-autoplay-slider-master/assets/js/slides.js"></script>
+                <script>
+                    initSlider({
+                        autoPlay: true,
+                        startAtIndex: 0,
+                        timeInterval: 2000
+                    })
+                </script>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">GESTÃO FINANCEIRA</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="../Controle.png" alt="">
+                            <span class="movie-list-item-title">Controle</span>
+                            <p class="movie-list-item-desc">Gerenciar despesas está relacionado à autoconsciência sobre
+                                os gastos.</p>
+                                
+                            <button class="movie-list-item-button"><a href="../Area de curso/Gestão financeira/Controle/Card de cursos.html">Assista</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"
+                                src="../Página do site/IMAGENS/IMAGENS QUALLYE/GESTÃO/ECONOMIA.png" alt="">
+                            <span class="movie-list-item-title">Economia</span>
+                            <p class="movie-list-item-desc">Estar ciente dos juros e da inflação faz com que a diferença
+                                seja visível.</p>
+                                <button class="movie-list-item-button"><a href="../Area de curso/Gestão financeira/Economia/Card de cursos.html">Assista</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"
+                                src="../Página do site/IMAGENS/IMAGENS QUALLYE/GESTÃO/PLANEJAMENTO.png" alt="">
+                            <span class="movie-list-item-title">Planejamento</span>
+                            <p class="movie-list-item-desc">Criação de um caderno ou arquivo separado em seu computador
+                                e anote em que gasta dinheiro.</p>
+                                <button class="movie-list-item-button"><a href="../Area de curso/Gestão financeira/Planejamento/Card de cursos.html">Assista</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"
+                                src="../Página do site/IMAGENS/IMAGENS QUALLYE/GESTÃO/APLICAÇÕES.png" alt="">
+                            <span class="movie-list-item-title">Aplicações</span>
+                            <p class="movie-list-item-desc">Aplicar e poupar dinheiro de uma maneira que seja benéfica
+                                para o seu bolso.</p>
+                            <button class="movie-list-item-button"><a href="../Area de curso/Gestão financeira/Aplicações/Card de cursos.html">Assista</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"
+                                src="../Página do site/IMAGENS/IMAGENS QUALLYE/GESTÃO/ECONOMIZAR.png" alt="">
+                            <span class="movie-list-item-title">Economizar</span>
+                            <p class="movie-list-item-desc">Os períodos de seca financeira são mais fáceis de sobreviver
+                                com uma pequena almofada financeira.</p>
+                            <button class="movie-list-item-button"><a href="../Area de curso/Gestão financeira/Economizar/Card de cursos.html">Assista</a></button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">EMPREENDEDORISMO</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"
+                                src="../Página do site/IMAGENS/IMAGENS QUALLYE/EMPREENDEDORISMO/DESENVOLVIMENTO.png"
+                                alt="">
+                            <span class="movie-list-item-title">Desenvolvimento</span>
+                            <p class="movie-list-item-desc">Desenvolver ideias e estudar táticas que auxiliem a tornar
+                                seu negócio competitivo, ao mesmo tempo em que constrói sua longevidade.</p>
+                            <button class="movie-list-item-button"><a href="../Area de curso/Empreendedorismo/Desenvolvimento/Card de cursos.html">Assista</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"
+                                src="../Página do site/IMAGENS/IMAGENS QUALLYE/EMPREENDEDORISMO/GERENCIAMENTO.png"
+                                alt="">
+                            <span class="movie-list-item-title">Gerenciamento</span>
+                            <p class="movie-list-item-desc">Para conseguir fazê-lo da maneira correta, a capacidade de
+                                organizar os recursos disponíveis deve ser encarada com inteligência e sabedoria</p>
+                            <button class="movie-list-item-button"><a href="../Area de curso/Empreendedorismo/Gerenciamento/Card de cursos.html">Assista</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"
+                                src="../Página do site/IMAGENS/IMAGENS QUALLYE/EMPREENDEDORISMO/LIDERANÇA.png" alt="">
+                            <span class="movie-list-item-title">Liderança</span>
+                            <p class="movie-list-item-desc">Aprender sobre liderança é outro aspecto importante para
+                                qualquer empreendedor bem-sucedido.</p>
+                            <button class="movie-list-item-button"><a href="../Area de curso/Empreendedorismo/Liderança/Card de cursos.html">Assista</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"
+                                src="../Página do site/IMAGENS/IMAGENS QUALLYE/EMPREENDEDORISMO/MARKETING.png" alt="">
+                            <span class="movie-list-item-title">Marketing</span>
+                            <p class="movie-list-item-desc">Uma das molas propulsoras de um negócio é o bom marketing,
+                                seja ela tradicional ou digital.</p>
+                            <button class="movie-list-item-button"><a href="../Area de curso/Empreendedorismo/Marketing/Card de cursos.html">Assista</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"
+                                src="../Página do site/IMAGENS/IMAGENS QUALLYE/EMPREENDEDORISMO/GESTÃO DE TEMPO.png"
+                                alt="">
+                            <span class="movie-list-item-title">Gestão de Tempo</span>
+                            <p class="movie-list-item-desc">Ela é um conjunto de estratégias que beneficia a realização
+                                de tarefas, a fim de torná-las mais produtivas.</p>
+                            <button class="movie-list-item-button"><a href="../Area de curso/Empreendedorismo/Gestão de tempo/Card de cursos.html">Assista</a></button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">INTELIGÊNCIA EMOCIONAL</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"
+                                src="../Página do site/IMAGENS/IMAGENS QUALLYE/INTELIGENCIA EMOCIONAL/AUTOCONSCIÊNCIA.png"
+                                alt="">
+                            <span class="movie-list-item-title">Autoconsciência</span>
+                            <p class="movie-list-item-desc">A autoconsciência é a capacidade de manter plena atenção ao
+                                que sentimos internamente, sendo capaz de reconhecer um sentimento quando ele ocorre.
+                            </p>
+                            <button class="movie-list-item-button"><a href="../Area de curso/Inteligência emocional/Autoconsciência/Card de cursos.html">Assista</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"
+                                src="../Página do site/IMAGENS/IMAGENS QUALLYE/INTELIGENCIA EMOCIONAL/GESTÃO EMOCIONAL.png"
+                                alt="">
+                            <span class="movie-list-item-title">Gestão das emoções</span>
+                            <p class="movie-list-item-desc">Reconhecer nossos pensamentos e emoções é um passo
+                                importante rumo ao desenvolvimento da inteligência emocional.</p>
+                            <button class="movie-list-item-button"><a href="../Area de curso/Inteligência emocional/Gestão emocional/Card de cursos.html">Assista</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"
+                                src="../Página do site/IMAGENS/IMAGENS QUALLYE/INTELIGENCIA EMOCIONAL/AUTOMOTIVAÇÃO.png"
+                                alt="">
+                            <span class="movie-list-item-title">Automotivação</span>
+                            <p class="movie-list-item-desc">Relacionada a capacidade de olharmos internamente, a
+                                automotivação ajuda a compreender o que nos impulsiona a fazer algo.</p>
+                            <button class="movie-list-item-button"><a href="../Area de curso/Inteligência emocional/Automotivação/Card de cursos.html">Assista</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"
+                                src="../Página do site/IMAGENS/IMAGENS QUALLYE/INTELIGENCIA EMOCIONAL/EMPATIA.png"
+                                alt="">
+                            <span class="movie-list-item-title">Empatia</span>
+                            <p class="movie-list-item-desc">A empatia é uma habilidade psíquica que nos permite enxergar
+                                o mundo a partir do olhar do outro.</p>
+                            <button class="movie-list-item-button"><a href="../Area de curso/Inteligência emocional/Empatia/Card de cursos.html">Assista</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"
+                                src="../Página do site/IMAGENS/IMAGENS QUALLYE/INTELIGENCIA EMOCIONAL/INDIVIDUALISMO.png"
+                                alt="">
+                            <span class="movie-list-item-title">Relacionamento interpessoal</span>
+                            <p class="movie-list-item-desc">A base da convivência em qualquer âmbito da vida - incluindo
+                                o trabalho - ancora-se na capacidade de cultivar bons relacionamentos, gerar conexões e
+                                estabelecer laços fortes. </p>
+                            <button class="movie-list-item-button"><a href="../Area de curso/Inteligência emocional/Individualismo/Card de cursos.html">Assista</a></button>
+                        </div>
+
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">PLANEJAMENTO PESSOAL</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"
+                                src="../Página do site/IMAGENS/IMAGENS QUALLYE/planejamento/METAS.png" alt="">
+                            <span class="movie-list-item-title">Metas</span>
+                            <p class="movie-list-item-desc">A autoconsciência é a capacidade de manter plena atenção ao
+                                que sentimos internamente, sendo capaz de reconhecer um sentimento quando ele ocorre.
+                            </p>
+                            <button class="movie-list-item-button"><a href="../Area de curso/Planejamento pessoal/Metas/Card de cursos.html">Assista</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"
+                                src="../Página do site/IMAGENS/IMAGENS QUALLYE/planejamento/FERRAMENTAS.png" alt="">
+                            <span class="movie-list-item-title">Ferramentas</span>
+                            <p class="movie-list-item-desc">As principais ferramentas de planejamento e organização
+                                pessoal para auxiliar na busca dos seus objetivos e na execução das suas tarefas.</p>
+                            <button class="movie-list-item-button"><a href="../Area de curso/Planejamento pessoal/Ferramentas/Card de cursos.html">Assista</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"
+                                src="../Página do site/IMAGENS/IMAGENS QUALLYE/planejamento/ANUAL, MENSAL E SEMANA.png"
+                                alt="">
+                            <span class="movie-list-item-title">Anual, mensal e semanal</span>
+                            <p class="movie-list-item-desc">Aprenda como fragmentar suas metas ao longo do seu ano de
+                                forma que você consiga realizar suas metas de forma mais eficiente.</p>
+                            <button class="movie-list-item-button"><a href="../Area de curso/Planejamento pessoal/Anual, mensal e semanal/Card de cursos.html">Assista</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"
+                                src="../Página do site/IMAGENS/IMAGENS QUALLYE/planejamento/MAIS EM MENOS.png" alt="">
+                            <span class="movie-list-item-title">Mais em menos</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button"><a href="../Area de curso/Planejamento pessoal/Mais em menos/Card de cursos.html">Assista</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"
+                                src="../Página do site/IMAGENS/IMAGENS QUALLYE/planejamento/ERROS.png" alt="">
+                            <span class="movie-list-item-title">Erros</span>
+                            <p class="movie-list-item-desc">Nesse tópico você verá alguns erros que provavelmente você
+                                pode estar cometendo e que ao eliminá-los, facilitará a sua vida no geral.</p>
+                            <button class="movie-list-item-button"><a href="../Area de curso/Planejamento pessoal/Erros/Card de cursos.html">Assista</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">SAÚDE FÍSICA</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="IMAGENS/IMAGENS QUALLYE/Saúde/Saude fisica/27.png"
+                                alt="">
+                            <span class="movie-list-item-title">Ganho de Massa</span>
+                            <p class="movie-list-item-desc">É importante desenvolver hábitos alimentares saudáveis e
+                                praticar exercícios físicos regulares para evitar o acúmulo de gordura.</p>
+                            <button class="movie-list-item-button"><a href="../Area de curso/Saúde física/Ganho de massa/Card de cursos.html">Assista</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="IMAGENS/IMAGENS QUALLYE/Saúde/Saude fisica/26.png"
+                                alt="">
+                            <span class="movie-list-item-title">Emagrecimento</span>
+                            <p class="movie-list-item-desc">A perda de peso pode trazer inúmeros
+                                benefícios para a saúde, como a redução do risco de doenças crônicas e melhora
+                                autoestima.</p>
+                            <button class="movie-list-item-button"><a href="../Area de curso/Saúde física/Emagrecimento/Card de cursos.html">Assista</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="IMAGENS/IMAGENS QUALLYE/Saúde/Saude fisica/25.png"
+                                alt="">
+                            <span class="movie-list-item-title">Hidratação</span>
+                            <p class="movie-list-item-desc">Ela é essencial para o bom funcionamento do organismo, pois
+                                ajuda a transportar nutrientes e oxigênio e eliminar resíduos.</p>
+                            <button class="movie-list-item-button"><a href="../Area de curso/Saúde física/Hidratação/Card de cursos.html">Assista</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="IMAGENS/IMAGENS QUALLYE/Saúde/Saude fisica/24.png"
+                                alt="">
+                            <span class="movie-list-item-title">Musculação</span>
+                            <p class="movie-list-item-desc">Além dos benefícios estéticos, a musculação também traz
+                                vantagens para a saúde.
+                            </p>
+                            <button class="movie-list-item-button"><a href="../Area de curso/Saúde física/Musculação/Card de cursos.html">Assista</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="IMAGENS/IMAGENS QUALLYE/Saúde/Saude fisica/22.png"
+                                alt="">
+                            <span class="movie-list-item-title">Alimentação</span>
+                            <p class="movie-list-item-desc">Uma dieta equilibrada e diversificada é essencial para
+                                manter a saúde e prevenir doenças.</p>
+                            <button class="movie-list-item-button"><a href="../Area de curso/Saúde física/Alimentação/Card de cursos.html">Assista</a></button>
+                        </div>
+
+                    </div>
+                    <div class="movie-list-container">
+                        <h1 class="movie-list-title">ESTUDOS</h1>
+                        <div class="movie-list-wrapper">
+                            <div class="movie-list">
+                                <div class="movie-list-item">
+                                    <img class="movie-list-item-img"
+                                        src="../Página do site/IMAGENS/IMAGENS QUALLYE/Estudos/25.png" alt="">
+                                    <span class="movie-list-item-title">Qualificação Profissional</span>
+                                    <p class="movie-list-item-desc">Formação qualificada é um pré-requisito mais do que
+                                        básico, não adianta se acomodar. Todo estudo adquirido se torna diferencial para
+                                        as organizações.</p>
+                                    <button class="movie-list-item-button"><a href="../Area de curso/Estudos/Qualificação profissional/Card de cursos.html">Assista</a></button>
+                                </div>
+                                <div class="movie-list-item">
+                                    <img class="movie-list-item-img"
+                                        src="../Página do site/IMAGENS/IMAGENS QUALLYE/Estudos/26.png" alt="">
+                                    <span class="movie-list-item-title">Evidências Científicas</span>
+                                    <p class="movie-list-item-desc">Quanto mais estudamos e exercitamos o cérebro, mais
+                                        protegido ele estará de doenças de degeneração, como o mal de Alzheimer, por
+                                        exemplo.</p>
+                                    <button class="movie-list-item-button"><a href="../Area de curso/Estudos/Evidências científicas/Card de cursos.html">Assista</a></button>
+                                </div>
+                                <div class="movie-list-item">
+                                    <img class="movie-list-item-img"
+                                        src="../Página do site/IMAGENS/IMAGENS QUALLYE/Estudos/22.png" alt="">
+                                    <span class="movie-list-item-title">Longevidade</span>
+                                    <p class="movie-list-item-desc">O conhecimento acumulado ao longo dos anos, colabora
+                                        para a recuperação neural. Está comprovada a relação entre o estudo e a rápida
+                                        recuperação de lesões cerebrais.</p>
+                                    <button class="movie-list-item-button"><a href="../Area de curso/Estudos/Longevidade/Card de cursos.html">Assista</a></button>
+                                </div>
+                                <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="IMAGENS/IMAGENS QUALLYE/Estudos/23.png"
+                                        alt="">
+                                    <span class="movie-list-item-title">Pesquisas Acadêmicas</span>
+                                    <p class="movie-list-item-desc">Uma formação mais completa pode possibilitar ao
+                                        sujeito o desenvolvimento de um pensamento mais crítico.</p>
+                                    <button class="movie-list-item-button"><a href="../Area de curso/Estudos/Pesquisas acadêmicas/Card de cursos.html">Assista</a></button>
+                                </div>
+                                <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="IMAGENS/IMAGENS QUALLYE/Estudos/21.png"
+                                        alt="">
+                                    <span class="movie-list-item-title">Cuidados Cognitivos</span>
+                                    <p class="movie-list-item-desc">Estudar não é só vantajoso para a vida profissional
+                                        de uma pessoa: é também um fator primordial para a vida pessoal.</p>
+                                    <button class="movie-list-item-button"><a href="../Area de curso/Estudos/Cuidados cognitivos/Card de cursos.html">Assista</a></button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+</body>
+
+</html>

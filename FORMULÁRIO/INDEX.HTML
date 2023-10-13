@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Satisfação</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to right, rgb purple,black);
+            position: flex;
+            display: flex;
+
+        }
+        .box{
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color: black;
+            padding: 15px;
+            border-radius: 15px;
+            width: 100%;
+            height: 100%;
+        }
+
+@media only screen and (max-width:768px){
+    .box{
+        color: white;
+            position: absolute;
+            top: 60%;
+            left: 51.5%;
+            transform: translate(-50%,-50%);
+            background-color: black;
+            padding: 15px;
+            border-radius: 15px;
+            width: 375px;
+            height: 800px;
+    }
+}
+
+        fieldset{
+            border: 3px solid rgb purple;
+        }
+        legend{
+            border: 1px solid rgb(255, 255, 255);
+            padding: 10px;
+            text-align: center;
+            background-color: purple;
+            border-radius: 8px;
+        }
+        .inputBox{
+            position: relative;
+        }
+        .inputUser{
+            background: none;
+            border: none;
+            border-bottom: 1px solid white;
+            outline: none;
+            color: white;
+            font-size: 15px;
+            width: 100%;
+            letter-spacing: 2px;
+        }
+        .labelInput{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            pointer-events: none;
+            transition: .5s;
+        }
+        .inputUser:focus ~ .labelInput,
+        .inputUser:valid ~ .labelInput{
+            top: -20px;
+            font-size: 12px;
+            color: purple;
+        }
+        #data_nascimento{
+            border: none;
+            padding: 8px;
+            border-radius: 10px;
+            outline: none;
+            font-size: 15px;
+        }
+        #submit{
+            background-image: linear-gradient(to right,purple, rgb(90, 20, 220));
+            width: 100%;
+            border: none;
+            padding: 15px;
+            color: white;
+            font-size: 15px;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        #submit:hover{
+            background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Fórmulário de Satisfação</b></legend>
+
+                <div>
+                    <p>Você recomendaria nossos serviços a um amigo ou familiar?</p>
+                    <input type="radio" id="Pergunta" name="Satisfação" value="oi" required>
+                    <label for="Sim">Sim</label>
+                    <br>
+                    <input type="radio" id="Pergunta" name="Satisfação" value="oi" required>
+                   <label for="Não">Não</label>
+                   <br>            
+                </div>
+
+                <div>
+                <p>Qual foi sua experiência com nossos serviços?</p>
+                <input type="radio" id="Pergunta" name="Satisfação" value="oi" required>
+                <label for="Bom">Excelente</label>
+                <br>
+                <input type="radio" id="Pergunta" name="Satisfação" value="oi" required>
+                <label for="Regular">Regular</label>
+                <br>
+                <input type="radio" id="Pergunta" name="Satisfação" value="oi" required>
+                <label for="Ruim">Ruim</label> 
+
+                </div>
+                <p>Você teve algum problema com nossos serviços?</p>
+                <input type="radio" id="Pergunta" name="Satisfação" value="oi" required>
+                <label for="Sim">Sim</label>
+                <br>
+                <input type="radio" id="Pergunta" name="Satisfação" value="oi" required>
+                <label for="Não">Não</label>
+                <br>
+                 
+                <p>Qual foi a sua avaliação geral da sua experiência?</p>
+                <input type="radio" id="Perguntas" name="Satisfação" value="oi" required>
+                <label for="Excelente">Excelente</label>
+                <br>
+                <input type="radio" id="Perguntas" name="Satisfação" value="oi" required>
+                <label for="Regular">Regular</label>
+                <br>
+                <input type="radio" id="Perguntas" name="Satisfação" value="oi" required>
+                <label for="Ruim">Ruim</label>
+                <br><br>
+                <label for="data_nascimento"><b>Data:</b></label>
+                <input type="date" name="data_nascimento" id="data_nascimento" required>
+                <br><br><br>
+                <div class="inputBox">
+                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                    <label for="cidade" class="labelInput">Estado</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="estado" id="estado" class="inputUser" required>
+                    <label for="estado" class="labelInput">Cidade</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                    <label for="endereco" class="labelInput">Email</label>
+                </div>
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
